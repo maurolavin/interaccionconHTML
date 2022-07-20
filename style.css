@@ -28,7 +28,25 @@ h3 {
     color: #43463f;
 }
 
-.imgcontainer {
+.imgcontainerred {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    background-color: #ef4646;
+}
+
+.imgcontainergreen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    background-color: #ef4646;
+}
+
+.imgcontainer__beige {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -53,4 +71,16 @@ h4{
     margin: 0 auto;
     padding: 10px;
     color: #ef4646;
+}
+
+.h4{
+    color: #ef4646;
+}
+
+.h4green{
+    color: #87975c;
+}
+
+.h4black{
+    color: #2c2d2b;
 }
